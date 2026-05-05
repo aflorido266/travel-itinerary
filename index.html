@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
     <script>
         tailwind.config = {
             theme: {
@@ -26,26 +29,33 @@
         }
     </script>
     <style>
-        html { scroll-behavior: smooth; }
+        html {
+            scroll-behavior: smooth;
+        }
+
         .img-aesthetic {
             transition: transform 0.5s ease, opacity 0.5s ease;
         }
+
         .img-aesthetic:hover {
             transform: scale(1.02);
         }
     </style>
 </head>
+
 <body class="font-montserrat bg-white text-navy antialiased">
 
     <!-- PORTADA -->
     <header class="relative h-screen flex items-center justify-center text-center">
         <div class="absolute inset-0 z-0">
             <!-- AQUÍ CAMBIAS EL NOMBRE: Asegúrate de que el nombre coincida con tu archivo en la carpeta -->
-            <img src="portada.jpeg" alt="Gijón playa San Lorenzo" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1597843818318-77ecbb6b5711?auto=format&fit=crop&w=2000&q=80'" />
+            <img src="portada.jpeg" alt="Gijón playa San Lorenzo" class="w-full h-full object-cover"
+                onerror="this.src='https://images.unsplash.com/photo-1597843818318-77ecbb6b5711?auto=format&fit=crop&w=2000&q=80'" />
             <div class="absolute inset-0 bg-navy bg-opacity-40"></div>
         </div>
-        
-        <div class="relative z-10 bg-white/90 backdrop-blur-sm p-10 md:p-16 rounded-2xl shadow-2xl max-w-3xl mx-4 transform transition duration-500 hover:scale-105">
+
+        <div
+            class="relative z-10 bg-white/90 backdrop-blur-sm p-10 md:p-16 rounded-2xl shadow-2xl max-w-3xl mx-4 transform transition duration-500 hover:scale-105">
             <h1 class="font-playfair text-4xl md:text-5xl lg:text-6xl font-semibold text-navy leading-tight mb-6">
                 💙 Exploring Asturias- Spain<br> with Kate & Dave
             </h1>
@@ -65,10 +75,12 @@
                 We’re so excited that the countdown to our reunion is almost over 💙
             </p>
             <p class="text-gray-700 leading-relaxed mb-6 text-lg font-light">
-                We’ve put together this little itinerary with lots of care so we can enjoy your visit to Gijón together, combining relaxing walks, special places, and of course, great food.
+                We’ve put together this little itinerary with lots of care so we can enjoy your visit to Gijón together,
+                combining relaxing walks, special places, and of course, great food.
             </p>
             <p class="text-gray-700 leading-relaxed mb-6 text-lg font-light">
-                It’s just a flexible plan — if you feel like changing anything, adding new ideas, or simply going with the flow, that’s absolutely perfect!
+                It’s just a flexible plan — if you feel like changing anything, adding new ideas, or simply going with
+                the flow, that’s absolutely perfect!
             </p>
             <p class="font-playfair text-xl text-navy mt-10">
                 What matters most is spending time together and creating beautiful memories.
@@ -80,30 +92,47 @@
     <section class="py-28 px-6 lg:px-12 max-w-7xl mx-auto">
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <div class="order-2 md:order-1">
-                <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-2">Viernes 15 Mayo</p>
-                <h2 class="font-playfair text-4xl lg:text-5xl text-navy mb-4">DAY 1: Friday, May 15</h2>
-                <h3 class="font-playfair text-2xl text-gray-600 mb-8 italic">Classic Gijón & seaside stroll</h3>
                 
-                <ul class="space-y-3 mb-10 text-gray-600 font-light list-none">
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Cider Fountain & Don Pelayo statue</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Roman Baths Museum</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Church of San José</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Jovellanos Birthplace Museum</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Walk through Cimavilla</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Walk up to Santa Catalina Hill (Elogio del Horizonte)</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Seaside walk along San Lorenzo promenade at sunset 🌇</li>
-                </ul>
+                <h2 class="font-playfair text-4xl lg:text-5xl text-navy mb-4">DAY 1: Friday, May 15</h2>
+                <h3 class="font-playfair text-2xl text-gray-600 mb-8 italic">Welcome & Relaxed Seaside Stroll</h3>
+                <p class="text-gray-500 italic text-sm mb-10">
+                    *Note: Since all sites are close by, we'll just walk around and decide as we go if you want to
+                    explore more or just enjoy the views!
+                </p>
 
+                <ul class="space-y-3 mb-10 text-gray-600 font-light list-none">
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Cider Fountain & the Gijón sign
+                    </li>
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Church of San José/Roman Baths Museum</li>
+                    <!-- <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Church of San José</li> -->
+                    <!-- <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Jovellanos Birthplace Museum</li> -->
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Walk up to Santa Catalina Hill
+                        (Elogio del Horizonte)</li>
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Seaside walk along San Lorenzo
+                        promenade at sunset 🌇</li>
+                </ul>
+                <div class="bg-blue-50/50 p-6 rounded-xl border border-blue-100 mb-10 flex items-center">
+                    <span class="text-3xl mr-4">😴</span>
+                    <div>
+                        <p class="font-semibold text-navy">Late Afternoon: Siesta Time!</p>
+                        <p class="text-gray-600 text-sm">A little time to recharge and be ready for the night.
+                        </p>
+                    </div>
+                </div>
                 <div class="bg-beige p-8 rounded-xl border-l-4 border-navy">
                     <p class="font-playfair text-xl font-semibold mb-2">🍽️ Special dinner</p>
                     <p class="text-gray-700 font-medium">Restaurante El Chigre 2.0 – Plaza Mayor</p>
                     <p class="text-gray-500 font-light mt-1">🕗 08:00 PM (Restaurant opens at this time)</p>
                 </div>
             </div>
-            
+
             <div class="order-1 md:order-2 grid grid-cols-2 gap-4">
-                <img src="Gijon.jpeg" alt="San Lorenzo" class="img-aesthetic rounded-t-[5rem] rounded-b-xl h-80 md:h-96 w-full object-cover shadow-lg" onerror="this.src='https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80'" />
-                <img src="torreSidra.jpeg" alt="Cimavilla" class="img-aesthetic rounded-b-[5rem] rounded-t-xl h-80 md:h-96 w-full object-cover shadow-lg mt-8 md:mt-12" onerror="this.src='https://images.unsplash.com/photo-1621535043427-4a7a8d50664e?auto=format&fit=crop&w=800&q=80'" />
+                <img src="Gijon.jpeg" alt="San Lorenzo"
+                    class="img-aesthetic rounded-t-[5rem] rounded-b-xl h-80 md:h-96 w-full object-cover shadow-lg"
+                    onerror="this.src='https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80'" />
+                <img src="torreSidra.jpeg" alt="Cimavilla"
+                    class="img-aesthetic rounded-b-[5rem] rounded-t-xl h-80 md:h-96 w-full object-cover shadow-lg mt-8 md:mt-12"
+                    onerror="this.src='https://images.unsplash.com/photo-1621535043427-4a7a8d50664e?auto=format&fit=crop&w=800&q=80'" />
             </div>
         </div>
     </section>
@@ -112,33 +141,38 @@
     <section class="bg-beige py-28 px-6 lg:px-12">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
             <div class="grid grid-cols-1">
-                <img src="cudillero.PNG" alt="Cudillero" class="img-aesthetic rounded-3xl h-[30rem] w-full object-cover shadow-xl" onerror="this.src='https://images.unsplash.com/photo-1522071372728-66af76b3da27?auto=format&fit=crop&w=1200&q=80'" />
+                <img src="cudillero.PNG" alt="Cudillero"
+                    class="img-aesthetic rounded-3xl h-[30rem] w-full object-cover shadow-xl"
+                    onerror="this.src='https://images.unsplash.com/photo-1522071372728-66af76b3da27?auto=format&fit=crop&w=1200&q=80'" />
             </div>
 
             <div>
-                <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-2">Sábado 16 Mayo</p>
                 <h2 class="font-playfair text-4xl lg:text-5xl text-navy mb-4">🏘️ DAY 2: Saturday, May 16</h2>
                 <h3 class="font-playfair text-2xl text-gray-600 mb-8 italic">Cudillero: a charming fishing village</h3>
-                
-                 <ul class="space-y-3 mb-10 text-gray-600 font-light list-none">
+
+                <ul class="space-y-3 mb-10 text-gray-600 font-light list-none">
                     <li class="flex items-start">
-                        <span class="mr-3 text-navy text-xl">☕</span> 
+                        <span class="mr-3 text-navy text-xl">☕</span>
                         <span>**9:00 AM** – First, a hearty and delicious breakfast at Ada & Leo's house</span>
                     </li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Walk through the **Town Center** & Harbour</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Photo at the **Cudillero Sign** 📸</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Mirador de Cimadevilla y de la Estrecha</li>
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Walk through the **Town Center**
+                        & Harbour</li>
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Photo at the **Cudillero Sign**
+                        📸</li>
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Mirador de Cimadevilla y de la
+                        Estrecha</li>
                 </ul>
                 </ul>
-                
+
 
                 <div class="bg-white p-8 rounded-xl shadow-sm border-l-4 border-navy">
                     <p class="font-playfair text-xl font-semibold mb-2">🍽️ Lunch</p>
                     <p class="text-gray-700 font-medium">Restaurant Isabel Plaza de la Marina/Calle Ribera, 3:00 PM</p>
-                    <p class="text-gray-700 font-medium">Note: The kitchen closes at 4:00 PM, so we should be there by 3:00 PM.</p>
+                    <p class="text-gray-700 font-medium">Note: The kitchen closes at 4:00 PM, so we should be there by
+                        3:00 PM.</p>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
@@ -146,24 +180,30 @@
     <section class="py-28 px-6 lg:px-12 max-w-7xl mx-auto">
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <div class="order-2 md:order-1">
-                <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-2">Domingo 17 Mayo</p>
                 <h2 class="font-playfair text-4xl lg:text-5xl text-navy mb-4">🎓 DAY 3: Sunday, May 17</h2>
                 <h3 class="font-playfair text-2xl text-gray-600 mb-8 italic">Culture & relaxed afternoon</h3>
-                
+
                 <ul class="space-y-3 mb-8 text-gray-600 font-light list-none">
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Morning visit to Universidad Laboral: Church and Tower</li>
-                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Vermuteo dominguero: 🍷 Traditional Sunday vermouth experience</li>
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Morning visit to Universidad
+                        Laboral: Church and Tower</li>
+                    <li class="flex items-start"><span class="mr-3 text-navy">▹</span> Vermuteo dominguero: 🍷
+                        Traditional Sunday vermouth experience</li>
                 </ul>
 
                 <div class="bg-beige p-8 rounded-xl border-l-4 border-navy">
-                    <p class="font-playfair text-xl font-semibold mb-2">🍽️ Lunch & traditional vermouth time (2:00–4:00 PM)</p>
+                    <p class="font-playfair text-xl font-semibold mb-2">🍽️ Lunch & traditional vermouth time (2:00–4:00
+                        PM)</p>
                     <p class="text-gray-700 font-medium">Restaurante PatiOh!</p>
                 </div>
             </div>
-            
+
             <div class="order-1 md:order-2 grid grid-cols-2 gap-4">
-                <img src="Iglesia-LAboral.jpeg" alt="Laboral" class="img-aesthetic rounded-[3rem] h-[32rem] w-full object-cover shadow-xl" onerror="this.src='https://images.unsplash.com/photo-1568014529452-f173b98cbf12?auto=format&fit=crop&w=1000&q=80'" />
-                <img src="Pation.jpeg" alt="Laboral" class="img-aesthetic rounded-[3rem] h-[32rem] w-full object-cover shadow-xl" onerror="this.src='https://images.unsplash.com/photo-1568014529452-f173b98cbf12?auto=format&fit=crop&w=1000&q=80'" />
+                <img src="Iglesia-LAboral.jpeg" alt="Laboral"
+                    class="img-aesthetic rounded-[3rem] h-[32rem] w-full object-cover shadow-xl"
+                    onerror="this.src='https://images.unsplash.com/photo-1568014529452-f173b98cbf12?auto=format&fit=crop&w=1000&q=80'" />
+                <img src="Pation.jpeg" alt="Laboral"
+                    class="img-aesthetic rounded-[3rem] h-[32rem] w-full object-cover shadow-xl"
+                    onerror="this.src='https://images.unsplash.com/photo-1568014529452-f173b98cbf12?auto=format&fit=crop&w=1000&q=80'" />
             </div>
         </div>
     </section>
@@ -172,7 +212,9 @@
     <section class="bg-beige py-28 px-6 lg:px-12">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
             <div class="grid grid-cols-1">
-                <img src="Puerto-deportivo.jpeg" alt="Puerto deportivo" class="img-aesthetic rounded-full aspect-square w-full max-w-md mx-auto object-cover shadow-xl" onerror="this.src='https://images.unsplash.com/photo-1559441113-11bf26b3cbf7?auto=format&fit=crop&w=1000&q=80'" />
+                <img src="Puerto-deportivo.jpeg" alt="Puerto deportivo"
+                    class="img-aesthetic rounded-full aspect-square w-full max-w-md mx-auto object-cover shadow-xl"
+                    onerror="this.src='https://images.unsplash.com/photo-1559441113-11bf26b3cbf7?auto=format&fit=crop&w=1000&q=80'" />
             </div>
 
             <div>
@@ -188,32 +230,31 @@
     </section>
 
     <!-- DETALLE FINAL -->
-<footer class="bg-navy py-20 px-6 text-center text-white">
+    <footer class="bg-navy py-20 px-6 text-center text-white">
 
-    <!-- Fotos -->
-    <div class="flex justify-center items-center gap-6 mb-8">
+        <!-- Fotos -->
+        <div class="flex justify-center items-center gap-6 mb-8">
 
-    <!-- FOTO GRUPAL -->
-    <img src="Todos.jpeg"
-         class="w-48 h-32 object-cover rounded-xl shadow-lg" />
+            <!-- FOTO GRUPAL -->
+            <img src="Todos.jpeg" class="w-48 h-32 object-cover rounded-xl shadow-lg" />
 
-    <!-- FOTO PAREJA -->
-    <img src="AlyssaAlexia.jpeg"
-         class="w-32 h-32 object-cover rounded-full shadow-lg border-2 border-white" />
+            <!-- FOTO PAREJA -->
+            <img src="AlyssaAlexia.jpeg" class="w-32 h-32 object-cover rounded-full shadow-lg border-2 border-white" />
 
-</div>
+        </div>
 
-    <!-- Texto principal -->
-    <h2 class="font-playfair text-2xl md:text-4xl font-medium leading-relaxed tracking-wide mb-4">
-        💙 Thank you for sharing this special travel with us 💙
-    </h2>
+        <!-- Texto principal -->
+        <h2 class="font-playfair text-2xl md:text-4xl font-medium leading-relaxed tracking-wide mb-4">
+            💙 Thank you for sharing this special travel with us 💙
+        </h2>
 
-    <!-- Subtexto -->
-    <p class="text-sm md:text-base opacity-80 max-w-xl mx-auto">
-        Looking forward to creating many more beautiful memories together.
-    </p>
+        <!-- Subtexto -->
+        <p class="text-sm md:text-base opacity-80 max-w-xl mx-auto">
+            Looking forward to creating many more beautiful memories together.
+        </p>
 
-</footer>
+    </footer>
 
 </body>
+
 </html>
